@@ -1,0 +1,21 @@
+main{
+    width: 86%;
+}
+nav ul li a{
+    padding-left: 5%;  
+}
+.leftAside{
+	min-width: 18%;
+}
+h2.homeArticle{
+    margin-left: 30%; 
+}
+p.homeArticle{
+    margin-left: 30%;
+}
+.leftAsideFirstDays{
+	min-width: 30%;
+}
+.AsideNextDays{
+    min-width: 30%;
+}
