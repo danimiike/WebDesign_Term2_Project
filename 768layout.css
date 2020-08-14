@@ -1,0 +1,82 @@
+main{
+    width: 86%;
+}
+article{
+    width: 90%;
+    margin: 0%;
+
+}
+.leftAside{
+	min-width: 18%;
+}
+h2.homeArticle{
+    margin-left: 30%; 
+}
+p.homeArticle{
+    margin-left: 30%;
+}
+nav ul li a{
+    padding-left: 5%;  
+}
+.leftAsideFirstDays{
+	min-width: 25%;
+}
+.AsideNextDays{
+    min-width: 25%;
+}
+.family{
+    width: 25%;
+    margin-right: -5%;
+    margin-top: -35%;
+
+}
+.fido{
+    width: 25%;
+    margin-right: 10%;
+    margin-top: -20%;
+}
+.tap{
+    width: 25%;
+    margin-right: -5%;
+    margin-top: -25%;
+
+}
+
+.license{
+    width: 25%;
+    margin-left: 0%;
+    margin-top: -30%;
+}
+
+.audiction{
+    width: 40%;
+    margin-right: -20%;
+    margin-top: -10%;
+
+}
+
+.flipp, .board{
+    width: 20%;
+    margin-right: 5%;
+    margin-top: -30%;
+
+}
+.uhaul, .credit{
+    min-width: 30%;
+    margin-right: -7%;
+    margin-top: -40%;
+
+}
+.DIY{
+    width: 30%;
+    margin-right: -7%;
+    margin-top: -45%;
+}
+
+.daytwo, .dayfour{
+    margin-left: 27%;
+}
+
+.dayseven, .daynine{
+    margin-left: 22%;
+}
