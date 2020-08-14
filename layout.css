@@ -1,0 +1,300 @@
+header, nav, main, section, .leftAside{
+    display:block;
+}
+
+body{
+    width: 100%;
+	font: 14px/1.4 'Source Sans Pro', sans-serif;
+    background: url("images/background.jpg") rgb(203, 211, 211);
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 600px;   
+}
+
+header img{
+    width: 90%;
+    height: 300px;
+}
+
+h1{
+    padding-left: 15%;
+    font-size: 30px;
+    color: rgb(218, 216, 216);
+}
+
+
+nav{
+    width: 90%;
+    background: rgba(37, 37, 37, 0.753);
+	box-shadow: 1px 1px 5px #333;
+    margin-top: -15px;
+}
+
+nav ul{
+	list-style: none;
+    padding: 1% 0% 1% 0%;
+}
+
+nav ul li{
+    display: inline;
+    padding: 0% 2%;  
+}
+
+nav ul li a{
+    color: white;
+    text-decoration:none; 
+    padding-left: 3%;  
+}
+
+.li1{
+    background: url("images/Icons/home.png") no-repeat;
+    background-size: 20px;    
+}
+
+.li2{
+    background: url("images/Icons/about\ me.png") no-repeat;
+    background-size: 20px;    
+}
+
+.li3{
+    background: url("images/Icons/Link-icon.png") no-repeat;
+    background-size: 20px;
+}  
+
+.li4{
+    background: url("images/Icons/e_mail.png")no-repeat;
+    background-size: 20px;
+}
+    
+main{
+    width: 86%;
+    border: black;
+    box-shadow: 1px 1px 5px #333;
+    margin-top: -0.5%;
+    padding: 2%;
+    background-color: rgba(236, 235, 235, 0.897);
+}
+
+.leftAside{
+    box-shadow: 1px 1px 5px #333;
+    float: left;
+	min-width: 15%;
+    padding: 3%;
+    margin-top: 3%;
+}
+
+.leftAside ul{
+    list-style: square;
+    padding-left: 5%; 
+}
+
+.leftAside ul li{
+    padding-bottom: 10%;  
+}
+
+.leftAside ul li a{
+    color:rgb(59, 58, 58);
+    text-decoration:none; 
+}
+
+.article{
+    margin-top: 5%;
+    margin-left:0%;
+    color:rgb(59, 58, 58);
+    text-align: justify; 
+}
+
+h2.homeArticle{
+    margin-left: 25%; 
+}
+
+p.homeArticle{
+    margin-left: 25%;
+    text-align: justify;
+}
+footer{
+    clear: both;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
+
+span{
+    color: rgb(211, 24, 24);
+    font-weight:bolder;
+}
+/**************************************************************************************************************/
+.leftAsideFirstDays{
+    float: right;
+    min-width: 15%;
+    border: black;
+    box-shadow: 1px 1px 5px #333;   
+}
+
+.leftAsideFirstDays ul{
+    padding-left: 10%;
+}
+
+.leftAsideFirstDays ul li{
+    list-style: none;
+}
+
+.li5{
+    color:rgb(59, 58, 58);
+    text-decoration:none; 
+    background: url("images/Icons/arrow.png")no-repeat;
+    background-size: 15%;
+    padding-left: 20%;
+}
+
+.dayone, .daysix{
+    margin-right: 25%;
+}
+
+.family{
+    float: right;
+    width: 15%;
+    margin-right: 5%;
+    margin-top: -10%;
+    position: relative;
+}
+
+.daytwo, .dayseven{
+    margin-left: 17%;
+}
+
+.fido{
+    float: left;
+    width: 15%;
+    margin-right: 10%;
+    margin-top: -10%;
+    position: relative;
+}
+
+.daythree, .dayeight{
+    margin-right: 25%;
+}
+
+.tap{
+    float: right;
+    width: 15%;
+    margin-right: 5%;
+    margin-top: -14%;
+    position: relative;
+}
+
+.dayfour, .daynine{
+    margin-left: 17%;
+}
+
+.license{
+    float: left;
+    width: 15%;
+    margin-right: 5%;
+    margin-top: -14%;
+    position: relative;
+}
+
+.dayfive, .dayten{
+    margin-right: 25%;
+}
+
+.audiction{
+    float: right;
+    width: 30%;
+    margin-right: -10%;
+    margin-top: -7%;
+    position: relative;
+}
+/*******************************************************************************************************/
+
+.AsideNextDays{
+    float: right;
+    min-width: 15%;
+    border: black ;
+    box-shadow: 1px 1px 5px #333;  
+}
+
+.AsideNextDays ul{
+    padding-left: 10%;
+}
+
+.AsideNextDays ul li{
+    list-style: none;
+}
+
+.li6{
+    color:rgb(59, 58, 58);
+    text-decoration:none; 
+    background: url("images/Icons/arrowr.png")no-repeat;
+    background-size: 15%;
+    padding-left: 20%;
+}
+
+.flipp, .board{
+    float: left;
+    width: 15%;
+    height: auto;
+    margin-right: 5%;
+    margin-top: -14%;
+    position: relative;
+}
+
+.uhaul, .credit{
+    float: right;
+    max-width: 15%;
+    min-width: 5%;
+    height: auto;
+    margin-right: 5%;
+    margin-top: -15%;
+    position: relative;
+}
+
+.DIY{
+    float: right;
+    width: 12%;
+    height: auto;
+    margin-right: 5%;
+    margin-top: -17%;
+    position: relative;
+}
+
+/*******************************************************************************************************/
+
+img.aboutme{
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    position: relative;
+    border-radius: 50%;
+}
+
+.articleAboutMe{
+    padding: 0% 2%;
+    color:rgb(59, 58, 58);
+}
+
+.articleAboutMe p{
+    margin-left: 25%;
+    text-align: justify;
+}
+
+.helpfulLinks{
+    font-weight:bolder;  
+}
+
+.helpfulLinks ul li{
+    color:rgb(59, 58, 58);
+    list-style: none;
+}
+
+.helpfulLinks ul li a{
+    text-decoration: none;
+    font-weight:normal; 
+}
